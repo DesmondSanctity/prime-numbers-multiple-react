@@ -8,14 +8,14 @@ export default function FormComponent({
 }) {
   return (
     <>
-      <h4>Prime Number Multiplication Table</h4>
+      <h4>Prime Numbers Multiplication Table</h4>
       <p>
-        World's simplest prime number multiplication table generator. Just press
+        A simple prime number multiplication table generator. Just press
         Generate Table button, and you get{" "}
         <span className="attention">
           the first 10 prime numbers multiplication table.
         </span>{" "}
-        Press button, get primes. No ads, nonsense or garbage.
+        Press button, get primes. No ads!!!.
       </p>
       <Form onSubmit={handleSubmit}>
         <Row form>

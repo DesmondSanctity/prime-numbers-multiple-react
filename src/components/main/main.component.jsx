@@ -52,18 +52,21 @@ export default function Main() {
         </Col>
         <Col sm={12} md={9}>
           <div className="content">
-            <h1>Prime Number Multiplication table</h1>
+            <h1>Prime Numbers Multiplication table</h1>
             <p>
               This calculator will allow you to build a set of primes based on
-              your selections and display it in a table format of your choice.
-              For example, you could create a list containing the first 10 prime
-              numbers, or you would create a list of primes between 1 and 10.
+              your selections and display it in a table format. For example, you
+              could create a list containing the first 10 prime numbers, or you
+              would create a list of primes between 1 and 10 or any number
+              multiplying themselves in row and column pattern.
             </p>
 
             {isLoading ? (
-              <Table striped>{createTable(numbers)}</Table>
+              <Table bordered striped responsive>
+                {createTable(numbers)}
+              </Table>
             ) : (
-              <div style={{ color: "#dc2d3f", textAlign: "center" }}>
+              <div style={{ color: "#28276d", textAlign: "center" }}>
                 {information}
               </div>
             )}

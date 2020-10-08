@@ -6,13 +6,12 @@
   font-family: "Open Sans", sans-serif;
   color: #f7f7f7;
   font-weight: 100;
-  background-color: #dc2d3f;
+  background-color: #28276d;
   width: 100%;
   min-height: 92.9vh;
   height: auto;
   padding: 1.25rem 1.875rem;
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -37,12 +36,12 @@
 }
 
 .content {
-  padding: 4rem 8rem;
+  padding: 4rem 4rem;
   width: 100%;
 }
 
 .content h1 {
-  text-align: right;
+  text-align: center;
   font-weight: 100;
   font-size: 2.5rem;
 }

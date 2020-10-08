@@ -20,13 +20,18 @@ export default function Header() {
     <Fragment>
       <Navbar color="light" light expand="md" className="header">
         <NavbarBrand href="/" className="brand">
-          PNMT
+          Prime Number Multiples React
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Subscribe</NavLink>
+              <NavLink
+                href="https://github.com/DesmondSanctity"
+                target="_blank"
+              >
+                Subscribe
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
