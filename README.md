@@ -38,7 +38,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 ## Technologies Used
--- React
--- React Hooks
--- Jest
--- JSX
+- React
+- React Hooks
+- Jest
+- JSX
